@@ -15,10 +15,10 @@ pesoMala = float(input("digite peso da mala"))
 
 limite = 100
 
-if pesoMala > limite & tipoCliente == "premium":
+if pesoMala > limite and tipoCliente == "premium":
     print("Pode passar")
 else:
-    if pesoMala > limite & tipoCliente == "gold":
+    if pesoMala > limite and tipoCliente == "gold":
         print("Pode passar")
     else:
         print("tem que pagar")
